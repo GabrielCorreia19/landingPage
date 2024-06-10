@@ -4,6 +4,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { NewsletterFormComponent } from '../newsletter-form/newsletter-form.component';
 import { BenefitComponent } from '../benefit/benefit.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ import { BenefitComponent } from '../benefit/benefit.component';
     BtnPrimaryComponent,
     NewsletterFormComponent,
     BenefitComponent,
+    FooterComponent,
   ],
 })
 export class HomeComponent {}
